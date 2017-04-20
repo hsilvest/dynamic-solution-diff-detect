@@ -1,0 +1,14 @@
+{
+  "name": "diff-detect",
+  "version": "1.0.0",
+  "description": "script to detect errors of mismatch name at dynamics crm importation",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrique Silvestre",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.4.17"
+  }
+}

@@ -7,6 +7,7 @@ var target = fs.readFileSync(__dirname + '/target/customizations.xml', 'utf8')
 
 var sourceAttributes = [];
 var targetAttributes = [];
+var mismatchArray =[];
 
 var LoadAttributes = function(file, resultArray){
     parser.parseString(file, function(err,result){
@@ -37,3 +38,5 @@ sourceAttributes.forEach(function(attribute) {
         console.log(match);
     }
 }, this);
+
+
